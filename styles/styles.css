@@ -54,6 +54,7 @@
   }
   .navbar-email {
     color: var(--very-light-pink);
+    cursor: pointer;
     font-size: var(--sm);
     margin-right: 12px;
   }
@@ -76,6 +77,7 @@
   }
 
   .desktop-menu {
+    visibility: hidden;
     width: 100px;
     height: auto;
     border: 1px solid var(--very-light-pink);
@@ -84,6 +86,11 @@
     position: absolute;
     top: 60px;right: 60px;
   }
+
+  .visible {
+    visibility: visible;
+  }
+
   .desktop-menu ul {
     list-style: none;
     padding: 0;
