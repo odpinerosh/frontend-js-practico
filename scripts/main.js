@@ -41,7 +41,10 @@ const shoppingCartToggle = () => {
     }
 }
 
-mainContainer.addEventListener('click', closeAllOnClick);
+//mainContainer.addEventListener('click', closeAllOnClick);
 navBarMail.addEventListener('click', deskTopMenuToggle);
 mobileMenuCtl.addEventListener('click', mobileMenuToggle);
 shoppingCartCtl.addEventListener('click', shoppingCartToggle);
+
+
+
